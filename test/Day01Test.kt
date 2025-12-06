@@ -1,7 +1,7 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class Day1Test {
+class Day01Test {
     val testIn = """L68
 L30
 R48
@@ -15,19 +15,19 @@ L82"""
 
     @Test
     fun stage1() {
-        val out = d01stage1(testIn)
+        val out = Day01.stage1(testIn)
         assertEquals(3, out)
     }
 
     @Test
     fun stage2() {
-        val out = d01stage2(testIn)
+        val out = Day01.stage2(testIn)
         assertEquals(6, out)
     }
 
     @Test
     fun stage2LargeWrap() {
-        val out = d01stage2("R1000")
+        val out = Day01.stage2("R1000")
         assertEquals(10, out)
     }
 }
