@@ -1,0 +1,8 @@
+[versions]
+aoc = "1.1.1"
+
+[libraries]
+aoc = { module = "com.toldoven.aoc:aoc-kotlin-notebook", version.ref = "aoc" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.2.20" }

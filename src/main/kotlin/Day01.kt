@@ -39,5 +39,3 @@ object Day01 : Day<Int, Int> {
         return password
     }
 }
-
-fun main() = runner(1, Day01::stage1, Day01::stage2)

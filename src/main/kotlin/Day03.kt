@@ -26,5 +26,3 @@ object Day03 : Day<Int, Long> {
         return parseInput(input).sumOf { maxJolt(it, 12) }
     }
 }
-
-fun main() = runner(3, Day03::stage1, Day03::stage2)

@@ -43,5 +43,3 @@ object Day02 : Day<Long, Long> {
     override fun stage1(input: String): Long = sumFunny(input, ::isFunny)
     override fun stage2(input: String): Long = sumFunny(input, ::isFunnyOrLonger)
 }
-
-fun main() = runner(2, Day02::stage1, Day02::stage2)
