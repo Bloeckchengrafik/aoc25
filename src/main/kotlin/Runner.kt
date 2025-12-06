@@ -3,12 +3,13 @@ import util.runner
 val days = listOf(
     Day01,
     Day02,
-    Day03
+    Day03,
+    Day04
 )
 
 fun main(args: Array<String>) {
     args.firstOrNull()?.toIntOrNull()?.also {
-        println("== Day ${it} == ")
+        println("== Day $it == ")
         val day = days[it - 1]
         runner(it, day::stage1, day::stage2)
         return
